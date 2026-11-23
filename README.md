@@ -6,7 +6,7 @@ A front-end travel website built with plain HTML, CSS and JavaScript. It does no
 
 1. Extract the ZIP file.
 2. Open the `TripNest` folder in Visual Studio Code.
-3. Install the **Live Server** extension (Ritwick Dey) if it is not already installed.
+3. Install the **Live Server** extension if it is not already installed.
 4. Right-click `index.html` and choose **Open with Live Server**.
 5. Explore the navigation, destination filters, planner and journal.
 
