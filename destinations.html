@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore travel ideas and destination guides with TripNest.">
+  <title>Explore destinations — TripNest</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/data.js" defer></script><script src="js/app.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">✦</span> TripNest</a>
+  <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  <nav class="nav-links"><a href="index.html">Home</a><a class="active" href="destinations.html">Destinations</a><a href="planner.html">Trip planner</a><a href="blog.html">Travel journal</a><a class="nav-cta" href="planner.html">Plan a trip ↗</a></nav>
+</header>
+<main>
+  <section class="page-hero destination-hero"><div class="wrap"><p class="eyebrow light">COLLECT MOMENTS, NOT MILES</p><h1>Somewhere<br><em>new awaits.</em></h1><p>Find a destination that fits your kind of adventure.</p></div></section>
+  <section class="section wrap">
+    <div class="filter-row">
+      <label class="search-field">⌕ <input id="destinationSearch" type="search" placeholder="Search places, states or vibes..." aria-label="Search destinations"></label>
+      <label class="select-field">Travel mood
+        <select id="moodFilter"><option value="all">All moods</option><option value="culture">Culture</option><option value="nature">Nature</option><option value="beach">Beach</option><option value="adventure">Adventure</option></select>
+      </label>
+    </div>
+    <p id="destinationCount" class="result-count"></p>
+    <div class="destination-grid" id="allDestinations"></div>
+    <div id="noDestinations" class="empty-state hidden"><h3>No places found</h3><p>Try another destination or travel mood.</p></div>
+  </section>
+  <section class="callout wrap"><div><p class="eyebrow">HAVE A PLACE IN MIND?</p><h2>Turn your idea into a plan.</h2></div><a class="button button-dark" href="planner.html">Open trip planner ↗</a></section>
+</main>
+<footer class="site-footer"><div><a class="brand footer-brand" href="index.html"><span class="brand-mark">✦</span> TripNest</a><p>Plan less. Travel more.</p></div><div class="footer-links"><a href="destinations.html">Destinations</a><a href="planner.html">Trip planner</a><a href="blog.html">Journal</a></div><p class="footer-small">© <span class="current-year"></span> TripNest. Independent travel-planning project.</p></footer>
+</body>
+</html>
